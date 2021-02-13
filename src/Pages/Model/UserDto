@@ -1,0 +1,17 @@
+
+
+export default class UserDto
+ {
+    constructor(aktif, depoid,id,isim,kodu, kullanici,sifre,soyisim) {
+        this.aktif = aktif;
+        this.depoid = depoid;
+        this.id = id;
+        this.kodu = kodu;
+        this.kullanici = kullanici;
+        this.sifre = sifre;
+        this.soyisim = soyisim;
+ 
+    }
+
+}
+
